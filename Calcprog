@@ -2,5 +2,9 @@ ftype= input("What type of function are you doing? e for exponential. l for Loga
 func= input("What is your function?: ")
 inte= input("What is your interval?: ")
 
+x='x'
+
 if ftype=="p":
     print(func)
+    if x in func:
+        print(True)
