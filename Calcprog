@@ -1,2 +1,5 @@
-ftype= input("What type of function are you doing? e for exponential. l for Logatithm. p for power")
+ftype= input("What type of function are you doing? e for exponential. l for Logatithm. p for power: ")
+
+if ftype=="e":
+    
 
