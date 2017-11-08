@@ -1,10 +1,8 @@
 ftype= input("What type of function are you doing? e for exponential. l for Logatithm. p for power, t for trignometric: ")
-func= input("What is your function?: ")
+func= str(input("What is your function?: "))
 inte= input("What is your interval?: ")
 
-x='x'
+x=2
 
 if ftype=="p":
     print(func)
-    if x in func:
-        print(True)
