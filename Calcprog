@@ -1,8 +1,8 @@
 ftype= input("What type of function are you doing? e for exponential. l for Logatithm. p for power, t for trignometric: ")
-func= str(input("What is your function?: "))
-inte= input("What is your interval?: ")
+func= input("What is your function?: ")
+lowinter= input("What is the lower value of your interval?: ")
+inte= input("What is the lower value of your interval?: ")
 
-x=2
 
 if ftype=="p":
     print(func)
